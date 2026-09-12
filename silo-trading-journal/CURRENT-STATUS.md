@@ -5,9 +5,10 @@
 - **P1** — کامل و «Final Approved»
 - **P2** — کامل، PR اصلی Merge شده روی `main`
 - **Issue #2 (Security Hardening / Migration 0026)** — PR باز شد، Review شد، تأیید و Merge شد
+- **Issue #4 (باگ Onboarding)** — PR شماره ۵ (`fix/onboarding-restore-race`) تأیید و Merge شد (۲۰۲۶-۰۹-۱۲)
 
 ## چی الان در جریانه
-- **Issue #4 (باگ Onboarding)** — PR شماره ۵ باز شده (`fix/onboarding-restore-race`)، همه‌ی تست‌ها (۷۰ تا) Pass شدن، Build بدون خطا، **منتظر Review استاده** (هنوز Merge نشده)
+هیچی — همه‌ی کارهای واگذارشده تا این لحظه تموم و Merge شدن. هیچ Issue بازی روی Repository نیست. منتظر Issue/Brief بعدی از طرف استادیم.
 
 ## Workflow فعلی پروژه (خیلی مهم — دقیقاً همینو رعایت کن)
 1. استاد یه GitHub Issue می‌سازه با جزئیات دقیق کار، و اون رو به `tehrun47-ai` Assign می‌کنه
