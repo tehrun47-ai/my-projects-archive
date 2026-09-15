@@ -17,4 +17,13 @@
 کامپوننت `AboutSocialProof.tsx` یه Badge ثابت داره: «۱۰+ سال تجربه بازار». طبق `docs/HOME.md`، ادعای «سال‌های تجربه»ی تأییدنشده جزو محتوای ممنوعه‌ست. پرسیده شده این خط از قبل کپی مصوب صفحه‌ی About هست یا باید حذف/کلی‌تر بشه — تا پاسخ نیومده دست‌نخورده می‌مونه.
 
 ## قدم بعدی
-شروع پیاده‌سازی بصری (بازسازی EcosystemMap به Grid کارتی + پالیش Responsive Hero/About/Final CTA طبق `docs/DESIGN_SYSTEM.md`)، بعد Validation کامل (`lint/typecheck/test/build`)، بعد باز کردن PR به `feat/platform-foundation` با گزارش کامل طبق فرمت خواسته‌شده در بریف.
+منتظر جواب استاد درباره‌ی Badge «۱۰+ سال تجربه» و Review واقعی روی Vercel Preview PR #10. اگه تأیید شد، نوبت پالیش نهایی احتمالی و آپدیت `docs/HOME.md` می‌رسه.
+
+## آپدیت — پیشرفت واقعی (بعد از این فایل نوشته شد)
+- ✅ `EcosystemMap.tsx` بازسازی شد: از لیست افقی به Grid کارتی Responsive (۱ ستون موبایل، ۲ ستون sm+)، با آیکون‌های محلی SVG برای هر شاخه، بدون افزودن Dependency جدید
+- ✅ حالت Focus قابل‌مشاهده (Keyboard Accessibility) به لینک‌های داخل کارت‌ها اضافه شد — طبق `docs/DESIGN_SYSTEM.md`
+- ✅ هر ۴ Validation پاس: lint, typecheck, test (۵/۵), build
+- ✅ `docs/PAGE_ASSIGNMENTS.md` آپدیت شد: ردیف Home → `ACTIVE`، PR #10 ثبت شد
+- ✅ **PR #10** باز و از حالت Draft خارج شد، آماده‌ی Review: `github.com/sina-ebrahimi-l/sina-ebrahimi-website/pull/10`
+- ⏳ Hero / About / Final CTA عمداً دست‌نخورده موند (Hero اخیراً Fix شده، منتظر تأیید نهایی بصری استاده؛ About/Final CTA از قبل با Spec همخوانی داشتن)
+- ⏳ منتظر پاسخ استاد درباره‌ی ابهام Badge سال تجربه
