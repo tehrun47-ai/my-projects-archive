@@ -8,6 +8,7 @@
 
 - [`silo-trading-journal/`](./silo-trading-journal/) — ژورنال معاملاتی هوشمند SILO، ساخته‌شده برای استاد سینا ابراهیمی
 - [`silo-analyst-platform/`](./silo-analyst-platform/) — پلتفرم ردیابی و امتیازدهی تحلیل‌گرها (SILO VIP Community)، هم برای همون استاد، ولی یه Repository و پروژه‌ی کاملاً جدا
+- [`project-3-pending-setup/`](./project-3-pending-setup/) — پروژه‌ی سوم (احتمالاً یه وبسایت)، جزئیاتش هنوز از استاد گرفته نشده — فقط یه پرامپت شروع آماده‌ست
 
 ## چطور از این فایل‌ها استفاده کنم؟
 
